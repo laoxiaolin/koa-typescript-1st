@@ -1,0 +1,43 @@
+{
+  "name": "typescript-koa-example",
+  "version": "0.0.1",
+  "description": "Example how to use Koa with TypeScript.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "John lee",
+    "email": "lee475002@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "tags": [
+    "typescript",
+    "typeorm-koa-example"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "ts-node": "^5.0.1",
+    "tslint": "5.7.0",
+    "@types/koa-static": "^4.0.0",
+    "@types/koa": "^2.0.45",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.27",
+    "@types/node": "^9.6.5",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src/**/* -e ts,tsx --exec ts-node ./src/main.ts"
+  }
+}
