@@ -5,3 +5,5 @@
 3. run 'npm start'
 
 change port in config.ts.
+
+this is KOA's basic framework with Typescript.
