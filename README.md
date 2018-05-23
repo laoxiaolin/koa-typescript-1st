@@ -6,9 +6,6 @@
 
 change port in config.ts.
 
-<<<<<<< HEAD
 
 it so easy!
-=======
 this is KOA's basic framework with Typescript.
->>>>>>> 0f97a0b16276c099c58c0c5a6f26cac286bf0ed6
