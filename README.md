@@ -5,3 +5,6 @@
 3. run 'npm start'
 
 change port in config.ts.
+
+
+it so easy!
