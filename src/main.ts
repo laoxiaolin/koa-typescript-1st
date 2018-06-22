@@ -4,11 +4,16 @@ import { config } from './config';
 import { logger } from './utility/logging';
 import { routes } from './routes';
 
-const app = new Koa();
+import { createConnection } from "typeorm";
 
-app.use(logger);
-app.use(routes);
+createConnection().then(async connection => {
+    const app = new Koa();
 
-app.listen(config.port);
+    app.use(logger);
+    app.use(routes);
 
-console.log(`Server running on port ${config.port}`);
+    app.listen(config.port);
+
+    console.log(`Server running on port ${config.port}`);
+    console.log(`Server running on port ${config.port}`);
+}).catch(error => console.log("TypeORM connection error: ", error));

@@ -1,0 +1,25 @@
+{
+   "type": "postgres",
+   "host": "192.168.8.115",
+   "port": 5432,
+   "username": "dbec",
+   "password": "1******1",
+   "database": "ecdb",
+   "synchronize": true,
+   "logging": false,
+   "entityPrefix": "tbl_",
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
