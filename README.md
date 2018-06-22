@@ -1,6 +1,6 @@
 # Example how to use Koa with TypeScript
 
-this branch is use typeorm module connect postsql
+this branch is use typeorm module connect PostgreSQL
 
 Add two modules：pg、typeorm
 pg : Non-blocking PostgreSQL client for Node.js. Pure JavaScript and optional native libpq bindings
@@ -10,7 +10,7 @@ how to run
 
 1. clone repository 
 2. run `npm i`
-3. config ormconfig.json to connect you postsql
+3. config ormconfig.json to connect you PostgreSQL
 4. run 'npm start'
 
 change port in src/config.ts.
