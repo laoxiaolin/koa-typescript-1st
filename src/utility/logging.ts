@@ -1,5 +1,5 @@
 import * as Koa from 'koa';
-import { config } from './../config';
+import { config } from '../config/config';
 
 interface ILogData {
     method: string;
